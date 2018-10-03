@@ -1,0 +1,2 @@
+# LinuxScriptsShell
+El siguiente repositorio contiene diversos Scripts en Shell para linux, puede resultar útil para cualquier persona que necesite aprender un poco mas sobre Bash Shell. En el repositorio puedes encontrar una bien resumida guia sobre comandos útiles Shell acompañados de una explicación , contenido en el mismo espacio del README.md se encuentran las explicaciones de cada Shell creado y en las carpetas los archivos disponibles para descarga.
