@@ -131,4 +131,4 @@ Desarollador
 - [Instagram](https://www.instagram.com/c.brignardello/)
 - [Facebook](https://web.facebook.com/profile.php?id=100010894814509)
 - [Twitter](https://twitter.com/c_brignardello)
-**Correo:** carlos.alb.brig@gmail.com
+- **carlos.alb.brig@gmail.com**
