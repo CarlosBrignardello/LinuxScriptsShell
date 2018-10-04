@@ -127,5 +127,9 @@ De este modo hemos convertido nuestro Script en un Comando,capaz de ser ejecutad
 
 Desarollador
 =========
-[Carlos Alberto Brignardello C.](https://www.linkedin.com/in/carlos-alberto-brignardello-c-360a12170/)
+[Linkedin](https://www.linkedin.com/in/carlos-alberto-brignardello-c-360a12170/)
+[Instagram](https://www.instagram.com/c.brignardello/)
+[Facebook](https://web.facebook.com/profile.php?id=100010894814509)
+[Twitter](https://twitter.com/c_brignardello)
+
 
