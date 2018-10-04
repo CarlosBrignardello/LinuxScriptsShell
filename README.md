@@ -1,7 +1,7 @@
 Linux Scripts - Creación de comandos de terminal
 =================
 
-El siguiente repositorio contiene diversos Scripts en Shell para Linux, puede resultar útil para cualquier persona que necesite aprender un poco mas sobre Bash Shell y la creación de comandos de terminal. En el repositorio puedes encontrar una bien resumida guia sobre [Comandos Linux]() para Shell.
+El siguiente repositorio contiene diversos Scripts en Shell para Linux, puede resultar útil para cualquier persona que necesite aprender un poco mas sobre Bash Shell y la creación de comandos de terminal. En el repositorio puedes encontrar una bien resumida guia sobre [Comandos Linux](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/Comandos%20Linux.md) para Shell.
 Contenidos en el mismo espacio del **README.md** se encuentran las explicaciones de cada Shell creado,y en la carpeta [Archivos](https://github.com/CarlosBrignardello/LinuxScriptsShell/tree/master/Archivos) los pertinentes Scripts disponibles para descarga.
 
 (Recomiendo abrir cada archivo con cat antes de ejecutar,nunca se sabe.....)
@@ -39,7 +39,7 @@ Una vez introducido el comando visualizaremos algo como esto:
 ![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README2.png)
 
 Estamos dentro del Vim que creamos , para que tenga algo de gracia procederemos a programar el archivo.
-```
+```sh
 #!/bin/bash
 echo -e "\nIngresa tu nombre:\c"
 read nombre
@@ -99,7 +99,7 @@ Convertir un Shell Script en un Comando de Linux
 ================
 
 Aquí reside el verdadero potencial de los Shell Scripts: Poder ejecutarlos de forma local. En este ejemplo útilizare el siguiente Script:
-```
+```sh
 #!/bin/bash
 echo -e "Tu dirección IP es: \c"
 echo -e `hostname -I` | cut -d " " -f 1
