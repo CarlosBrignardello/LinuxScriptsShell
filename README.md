@@ -32,14 +32,14 @@ Para crear un archivo Vim introducimos el siguiente comando:
 ```
 vim mi-archivo.sh
 ```
-Donde: ``mi-archivo`` es el nombre que escogeremos para crear nuestro archivo y ``.sh``(Shell) es simplemente el parametro que defino el tipo de archivo que crearemos , en este caso utilizamos ``.sh`` debido a que crearemos Shell Scripts.
+Donde: ``mi-archivo`` es el nombre que escogeremos para crear nuestro archivo y ``.sh``(Shell) es simplemente el parametro que define el tipo de archivo que crearemos , en este caso utilizamos ``.sh`` debido a que crearemos Shell Scripts.
 
 Una vez introducido el comando visualizaremos algo como esto:
 
 ![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README2.png)
 
 Estamos dentro del Vim que creamos , para que tenga algo de gracia procederemos a programar el archivo.
-```C
+```
 #!/bin/bash
 echo -e "\nIngresa tu nombre:\c"
 read nombre
@@ -50,7 +50,9 @@ Nota: Cada vez que abres un archivo en Vim primero debes presionar almenos una l
 
 Puede parecer sumamente confuso al comienzo pero es tan facil como esto:
 ``#!/bin/bash`` Siempre sera lo primero que colocaremos pues es el formato que tiene todo Shell Script.
-``echo``(Eco) en Shell es un comando que puede escribir en pantalla cualquier cosa que introduzcamos entre "". ``read``(Leer) es tan obvio como se ve , con el podemos leer cualquier valor , en este caso ya que anteriormente incluimos un ``echo`` , al ejecutar el Script se nos detendra ese texto y nos solitara introducir algun valor o dato , el cual sera guardado posteriormente como variable en ``read``. Es por eso que acompañamos ``read`` de un identificador o variable.
+``echo``(Eco) en Shell es un comando que puede escribir en pantalla cualquier cosa que introduzcamos entre " ".
+
+``read``(Leer) es tan obvio como se ve , con el podemos leer cualquier valor , en este caso ya que anteriormente incluimos un ``echo`` , al ejecutar el Script se nos detendra ese texto y nos solitara introducir algun valor o dato , el cual sera guardado posteriormente como variable en ``read``. Es por eso que acompañamos ``read`` de un identificador o variable.
 
 En este caso puntual utilizamos ``echo -e`` , esto lo hacemos para que los indicadores {\n y \c} no sean vistos como parte del texto y sean ejecutados.
 
@@ -67,14 +69,17 @@ Si estas confundido respecto a lo de la ubicación:
 Con $PWD indicamos que queremos que se imprima la ubicación desde donde la consola ejecuto el Script.
 Otra forma de hacerlo es con el siguiente codigo.
 
-```C
+```
 #!/bin/bash
 echo -e "\nIngresa tu nombre:\c"
 read nombre
 echo -e "Tu nombre es: $nombre y actualmente estas ubicado en:\n"
 echo `pwd`
 ```
-Explicación: Al introducir ``pwd`` entre ` ` , dentro de un ``echo`` estamos solicitando que se ejecute en consola especificamente ese comando(El cual por si aun no te has dado cuenta sirve para indicar la ubicación actual).
+Explicación: Al introducir ``pwd`` de esa manera, dentro de un ``echo`` estamos solicitando que se ejecute en consola. 
+
+
+(El comando "pwd" por si aun no te has dado cuenta sirve para indicar la ubicación actual).
 Podemos realizar lo mismo con cualquier línea que escribamos dentro.
 
 **Permisos del Shell Script**
@@ -94,7 +99,7 @@ Convertir un Shell Script en un Comando de Linux
 ================
 
 Aquí reside el verdadero potencial de los Shell Scripts: Poder ejecutarlos de forma local. En este ejemplo útilizare el siguiente Script:
-```C
+```
 #!/bin/bash
 echo -e "Tu dirección IP es: \c"
 echo -e `hostname -I` | cut -d " " -f 1
