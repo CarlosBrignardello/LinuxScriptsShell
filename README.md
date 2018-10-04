@@ -4,12 +4,12 @@ Linux Scripts en Shell - Creación de comandos de terminal
 El siguiente repositorio contiene diversos Scripts en Shell para Linux, puede resultar útil para cualquier persona que necesite aprender un poco mas sobre Bash Shell y la creación de comandos de terminal. En el repositorio puedes encontrar una bien resumida guia sobre comandos útiles Shell [Comandos Linux]().
 Contenidos en el mismo espacio del **README.md** se encuentran las explicaciones de cada Shell creado,y en la carpeta [Archivos]() los pertinentes archivos creados disponibles para descarga.
 
-![Screenshot](https://github.com/JohnPersano/SuperToasts/blob/master/IMAGENES/PORTRAIT.png)
+![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/PORTRAIT.png)
 
 Instalación de Vim
 ==================================
 
-![Screenshot](https://github.com/JohnPersano/SuperToasts/blob/master/IMAGENES/README1.png)
+![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README1.png)
 
 Los siguientes procedimientos seran todos creados con Vim , para poder hacer uso de este editor de texto requerimos de su previa instalación. 
 En caso de que no dispongamos del mismo su instalación resulta muy sensilla.
@@ -34,7 +34,7 @@ Donde: ``mi-archivo`` es el nombre que escogeremos para crear nuestro archivo y 
 
 Una vez introducido el comando visualizaremos algo como esto:
 
-![Screenshot](https://github.com/JohnPersano/SuperToasts/blob/master/IMAGENES/README2.png)
+![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README2.png)
 
 Estamos dentro del Vim que creamos , para que tenga algo de gracia procederemos a programar el archivo.
 ```C
@@ -86,7 +86,7 @@ Donde: ``chmod`` es un comando utilizado para ver y editar los permisos de cualq
 
 **RESULTADO:**
 
-![Screenshot](https://github.com/JohnPersano/SuperToasts/blob/master/IMAGENES/README3.png)
+![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README3.png)
 
 Convertir un Shell Script en un Comando de Linux
 ================
@@ -116,7 +116,7 @@ El comando ``cp`` sirve para copiar archivos y directorios , en este caso: reali
 
 De este modo hemos convertido nuestro Script en un Comando,capaz de ser ejecutado de forma local en cualquier momento.
 
-![Screenshot](https://github.com/JohnPersano/SuperToasts/blob/master/IMAGENES/README4.png)
+![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README4.png)
 
 Desarollador
 =========
