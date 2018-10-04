@@ -2,7 +2,7 @@ Linux Scripts - Creación de comandos de terminal
 =================
 
 El siguiente repositorio contiene diversos Scripts en Shell para Linux, puede resultar útil para cualquier persona que necesite aprender un poco mas sobre Bash Shell y la creación de comandos de terminal. En el repositorio puedes encontrar una bien resumida guia sobre [Comandos Linux]() para Shell.
-Contenidos en el mismo espacio del **README.md** se encuentran las explicaciones de cada Shell creado,y en la carpeta [Archivos]() los pertinentes Scripts disponibles para descarga.
+Contenidos en el mismo espacio del **README.md** se encuentran las explicaciones de cada Shell creado,y en la carpeta [Archivos](https://github.com/CarlosBrignardello/LinuxScriptsShell/tree/master/Archivos) los pertinentes Scripts disponibles para descarga.
 
 (Recomiendo abrir cada archivo con cat antes de ejecutar,nunca se sabe.....)
 
@@ -69,7 +69,7 @@ Si estas confundido respecto a lo de la ubicación:
 Con $PWD indicamos que queremos que se imprima la ubicación desde donde la consola ejecuto el Script.
 Otra forma de hacerlo es con el siguiente codigo.
 
-```
+```sh
 #!/bin/bash
 echo -e "\nIngresa tu nombre:\c"
 read nombre
