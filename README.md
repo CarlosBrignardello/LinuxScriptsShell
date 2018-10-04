@@ -14,7 +14,7 @@ Instalación de Vim
 ![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/README1.png)
 
 Los siguientes procedimientos seran todos creados con Vim , para poder hacer uso de este editor de texto requerimos de su previa instalación. 
-En caso de que no dispongamos del mismo su instalación resulta muy sensilla.
+En caso de que no dispongamos del mismo su instalación resulta muy sencilla.
 
 **1)Nos dirijimos al terminal**
 
