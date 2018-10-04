@@ -4,7 +4,7 @@ Linux Scripts - Creación de comandos de terminal
 El siguiente repositorio contiene diversos Scripts en Shell para Linux, puede resultar útil para cualquier persona que necesite aprender un poco mas sobre Bash Shell y la creación de comandos de terminal. En el repositorio puedes encontrar una bien resumida guia sobre [Comandos Linux]() para Shell.
 Contenidos en el mismo espacio del **README.md** se encuentran las explicaciones de cada Shell creado,y en la carpeta [Archivos]() los pertinentes Scripts disponibles para descarga.
 
-(Recomiendo abrir cada archivo con cat antes de ejecutar,Nunca se sabe.....).
+(Recomiendo abrir cada archivo con cat antes de ejecutar,nunca se sabe.....)
 
 ![Screenshot](https://github.com/CarlosBrignardello/LinuxScriptsShell/blob/master/IMAGENES/PORTRAIT.png)
 
